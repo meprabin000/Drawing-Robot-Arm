@@ -1,9 +1,21 @@
-#include "log.Debug.h"
+#include <iostream>
 
-using namespace std;
+#include "tag.h"
+#include "task.h"
+#include "scheduleTask.h"
+#include "app.h"
+
 
 int main( void )
 {
-    log("Hello world");
+    App* app = new App();
+    app->start();
 
 }
+
+
+
+
+
+
+

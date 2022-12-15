@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/prabin/Documents/Projects/Activity Tracker'
+g++  -g -Wall -std=c++11 -c main.cpp
+g++  -g -Wall -std=c++11 -c scheduleTask.cpp
+g++  -g -Wall -std=c++11 -c task.cpp
+g++  -g -Wall -std=c++11 -c tag.cpp
+g++  -g -Wall -std=c++11 -c todos.cpp
+g++  -g -Wall -std=c++11 -c app.cpp
+g++  -g -Wall -std=c++11 -o run main.o scheduleTask.o task.o tag.o todos.o app.o
+./run
+make: Leaving directory `/Users/prabin/Documents/Projects/Activity Tracker'
+ 
